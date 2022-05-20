@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: andyjones81/github-actions/turnstyle@master
+    - uses: andyjones81/test-docs/@main
       name: Check workflow concurrency
       with:
         initial-wait-seconds: 15
